@@ -1,0 +1,178 @@
+	🌐 Estrutura Básica
+
+<!DOCTYPE html> = define tipo de documento (HTML5)
+<html lang="pt-BR"> = raiz do documento
+<head> = metadados (charset, title, links, scripts)
+<meta charset="UTF-8"> = codificação de caracteres
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> = responsividade
+<title>Título da Página</title>
+<body> = conteúdo visível da página
+
+
+	Semântica
+
+<header> = topo
+<nav> = menu
+<section> = seção
+<footer> = rodapé
+
+
+	Metadados
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> = para reconhecer versões do navegador da microsoft
+<meta name="description" content="descrição do site"> = cria descrição do site
+<meta name="keywords" content="palavras-chave"> = palavras chaves relacionadas ao site para melhor busca
+<meta name="author" content="Autor do site" = para inserir o nome do autor do site
+
+
+	📑 Elementos de Texto
+
+<h1> a <h6> = títulos (níveis de importância)
+<p> = parágrafo
+<span> = texto em linha (sem significado semântico)
+<strong> = destaque semântico (imposternte, navegador entende como uma parte imposternte)
+<em> = ênfase (itálico)
+<i> = itálico
+<b> = negrito
+<u> = sublinhado
+<small> = para deixar pequeno
+<del> = riscado
+<br> = quebra de linha
+<hr> = linha de divisão horizontal
+<sup> = superior
+<sub> = inferior
+<pre> = preserva formatação e espaços
+<code> = trechos de código
+<blockquote> = citação em bloco
+<q> = citação curta
+
+
+	Elementos de Citação
+
+<abbr title="citação"> = para abreviatura (aparece um balão ao passar o mouse)
+<address> = endereço
+<cite> = para citação de uma obra
+<q> = citação de palavras (entre aspas)
+<blockquote> = destaque
+<bdo dir="rtl" = deixa o texto invertido (da direita para esquerda)
+
+ 
+	🔗 Links e Navegação
+
+<a href="pasta/url"> = caminho relativo
+<a href="../url"> = para voltar uma pasta
+<a href="url"> = link (url relativa)
+<a href="#id"> = link âncora (na mesma página)
+<a target="_blank"> = abre em nova aba (url absoluta)
+<nav> = seção de navegação
+<iframe src=""> = imprime uma pagina dentro de outra pagina
+
+
+	🖼️ Mídia
+
+<img src="imagem.png" alt="descrição"> = enviar imagem e descrição alternativa
+<figure> = agrupa conteúdo ilustrativo
+<figcaption> = adicionar uma legenda ou descrição à figura
+<audio controls> = enviar audio e controls para ativar os controles
+<source src="audio.mp3" type="audio/mpeg"> = source define o arquivo
+controlslist="nodownload" = usado na tag audio para tirar a ação de fazer um download
+<video porter="img/nomedaimg.jpg" autoplay width="100%" controls> = enviar video (portes envia thumbnail e autoplay inicia o video automaticamente)
+<source src="video.mp4" type="video/mp4">
+disablepictureinpicture = desabilita picture-in-picture (na tag video)
+controlslist="nofullscreen" = desabilita opção tela cheia
+
+
+	Sites Úteis
+
+easy resize = para comprimir imagens
+pexels, pixabay, freepik = imagens gratuitas
+photopea = criação de imagens
+flaticon = site de ícones
+imagem map generator = área de clicks na imagem
+
+
+	📋 Listas
+
+<ul> = lista não ordenada
+<ol> = lista ordenada
+<li> = item da lista
+<dl> = lista de definição
+<dt> = termo
+<dd> = definição
+
+
+	📦 Estrutura de Página
+
+<header> = cabeçalho
+<main> = conteúdo principal
+<section> = seção temática
+<article> = conteúdo independente
+<aside> = conteúdo lateral (ex: barra lateral)
+<div> = divisão genérica
+<span> = elemento em linha genérico
+
+
+	📝 Formulários
+
+<form action="url" method="post/get"> = criação de formulário
+<input type="text" name="usuario" placeholder="Digite seu nome"> = entrada do tipo texto e marca d'água
+<input type="password" name="senha"> = entrada do tipo senha
+<input type="email"> = entrada do tipo email
+<input type="number" min="0" max="10">= campo de formulário, tipo de dado e valor min e max permitido
+<input type="checkbox" name="opcao"> = caixa de seleção (acompanhado do <label for="">)
+<input type="radio" name="grupo" value="1"> = escolher uma opção dentro de um grupo (acompanhado do <label for="">)
+<textarea rows="4" cols="30"></textarea> = campo de tipo texto (acompanhado do numero de linhas e colunas)
+<select name=""> = menu suspenso que permite selecionar uma opção
+<option selected disabled values="">Opção 1</option> = opções dentro do menu suspenso (essa opção vem desabilitada)
+<label for="campo">Texto do rótulo</label> = legenda do campo (for direciona para o campo ao clicar com mouse)
+<input type="submit" value="Enviar Formulário"> = entrada do tipo enviar os dados do formulário
+required = torna a obrigação de preenchimento nos campos
+
+
+	🎨 Elementos Semânticos Modernos
+
+<mark> = marcação (texto destacado)
+<time datetime="2025-09-11"> = data/hora semântica
+<meter value="0.7"> = medidor
+<progress value="40" max="100"> = progresso
+<details> = ocultar ou exibir conteúdo quando o usuário clica
+<summary> = define o título clicável do bloco
+
+
+	📑 Tabelas
+
+<table> = cria a tabela
+<tr> = linha
+<th> = coluna (primeira linha)
+<td> = coluna (conteúdo da tabela)
+<caption> = adiciona um título ou legenda à tabela
+<thead> = agrupa o cabeçalho da tabela (títulos das colunas)
+<tbody> = linhas de dados
+<tfoot> = define o rodapé da tabela
+
+
+	🔗 Scripts e Estilos
+
+<link rel="stylesheet" href="style.css"> = CSS externo
+<style> p { color: red; } </style> = CSS interno
+<script src="app.js"></script> = JavaScript externo
+<script>console.log("inline");</script> = JS interno
+<noscript>Ative o JavaScript para usar este site</noscript>
+
+
+	🛡️ Boas Práticas
+
+sempre usar alt em imagens
+usar tags semânticas para acessibilidade
+validar HTML com W3C Validator
+separar estrutura (HTML), estilo (CSS) e lógica (JS)
+
+	
+	📚 Recursos Rápidos
+
+comentários: <!-- comentário -->
+ilumina + ctrl + k + c = para comentar a parte iluminada
+atalho para favicon: <link rel="icon" href="favicon.ico">
+atalho teclado acessibilidade: accesskey, tabindex
+download em links: <a href="arquivo.pdf" download>Baixar</a>
+&nbsp; = para espaço em branco
