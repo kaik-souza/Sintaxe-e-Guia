@@ -8,9 +8,9 @@
 selector { propriedade: valor; }
 * = seletor universal
 div, p = múltiplos seletores
-#id = seleciona por id
-.classe = seleciona por classe
-elemento = seleciona por tag
+#id = invoca por id
+.classe = invoca por classe
+elemento = invoca por tag
 elemento1 elemento2 = descendente
 elemento1 > elemento2 = filho direto
 elemento1 + elemento2 = irmão adjacente
