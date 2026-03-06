@@ -30,7 +30,7 @@
 <h1> a <h6> = títulos (níveis de importância)
 <p> = parágrafo
 <span> = texto em linha (sem significado semântico)
-<strong> = destaque semântico (imposternte, navegador entende como uma parte imposternte)
+<strong> = destaque semântico (navegador entende como uma parte importante)
 <em> = ênfase (itálico)
 <i> = itálico
 <b> = negrito
