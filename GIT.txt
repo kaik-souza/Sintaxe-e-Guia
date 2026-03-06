@@ -3,7 +3,7 @@
 clear = limpa a tela
 cd <nome-pasta> = transfere para pasta
 cd .. = volta para pasta anterior
-pwd = mostra qual pasta esta
+pwd = mostra a pasta atual
 ls = lista os arquivos da pasta
 mkdir <nome-pasta> = cria uma pasta
 touch <caminho-arquivo>/<nome-arquivo> = para criar um arquivo
@@ -27,7 +27,7 @@ git status = para consultar as alterações
 	📌 Adição e Commits
 
 git add <file> = para adicionar arquivo ao container
-git add */. = adiciona todos os arquivos ao container
+git add * ou . = adiciona todos os arquivos ao container
 git commit -m "comentário" =  armazenar e add comentario no container
 git commit -am = adiciona arquivo ao container e cria um commit
 git diff = mostra as mudanças antes de realizar o commit
